@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    padding: 10px 0;
+    background: linear-gradient(#B0C4DE, #87CEEB);
+    height: 45px;
+}
+
+.logo {
+    width: 50%;
+    font-size: 1.2em;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.icon {
+    width: 50%;
+    text-align: right;
+}
+
+.icon svg {
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.menu {
+    position: absolute;
+    background: linear-gradient(#1E90FF, #00BFFF);
+    text-align: center;
+    left: 0;
+    top: 45px;
+    width: 100%;
+    overflow: hidden;
+    font-size: 1.3em;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.show {
+    height: 130px;
+    transition: 1s;
+}
+
+.hide {
+    height: 0;
+    transition: 1s;
+}
